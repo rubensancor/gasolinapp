@@ -73,6 +73,7 @@ app.get('/a', function(req, res, next) {
 });
 
 app.get('/', function(req, res) {
+  console.log("Renderizando index");
     res.render('index');
 });
 
