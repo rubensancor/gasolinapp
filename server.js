@@ -71,23 +71,6 @@ app.get('/a', function(req, res, next) {
     });
 });
 
-$http.get("https://gasolinapp.herokuapp.com").then(function(response) {
-  MongoClient.connect("mongodb://gusy:das@ds155747.mlab.com:55747/heroku_50hc8zr3", function(err, db) {
-      if (err) {
-          return console.dir(err);
-      }
-      console.log('Entrando');
-
-      var collection = db.collection('gasolineras');
-
-      collection.find().toArray(function(err, docs) {
-          test.equal(null, err);
-          var data = JSON.stringify(docs);
-          res.json(docs);
-      });
-  });
-});
-
 app.get('/', function(req, res) {
   console.log("Renderizando index");
     res.render('index');
