@@ -1,0 +1,610 @@
+{ "Distancia": "3,79 Km",
+ "Compania": "CEPSA",
+ "Direccion": "Avenida Miraflores, 12",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,354",
+ "Gasoleo": "1,136",
+ "GLP": "",
+ "Coordenadas": "[43.2466466, -2.9113268]"
+}
+{ "Distancia": "4,08 Km",
+ "Compania": "CEPSA",
+ "Direccion": "Calle Juan De Garay, 9",
+ "Localidad": "Bilbao",
+ "Gasolina95": "",
+ "Gasolina98": "",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.2562884, -2.9325793]"
+}
+{ "Distancia": "4,19 Km",
+ "Compania": "E.S. AJARTE S.A.",
+ "Direccion": "Avda. Ajarte, S/n (n-625 Km 382)",
+ "Localidad": "Arrigorriaga",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "",
+ "GLP": "",
+ "Coordenadas": "[43.2038744, -2.8939516]"
+}
+{ "Distancia": "4,34 Km",
+ "Compania": "CEPSA",
+ "Direccion": "Plaza Calixto Diez, S/n",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "",
+ "Gasoleo": "",
+ "GLP": "",
+ "Coordenadas": "[43.2567618, -2.9415884]"
+}
+{ "Distancia": "4,80 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Carretera Bolueta-arrigorriaga Km. 6",
+ "Localidad": "Basauri",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.2301998, -2.8926342]"
+}
+{ "Distancia": "5,02 Km",
+ "Compania": "GARAGE SAN MAMES",
+ "Direccion": "Avenida Sabino Arana,, 21",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.2619172, -2.9462524]"
+}
+{ "Distancia": "5,06 Km",
+ "Compania": "CAMPSA",
+ "Direccion": "Plaza Ernesto Ercoreka, S/n",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,229",
+ "Gasolina98": "",
+ "Gasoleo": "",
+ "GLP": "",
+ "Coordenadas": "[43.26408139999999, -2.9229117]"
+}
+{ "Distancia": "5,28 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Autopista Ap-68 Km. 6",
+ "Localidad": "Ugao-Miraballes",
+ "Gasolina95": "1,259",
+ "Gasolina98": "1,359",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.18124479999999, -2.8981539]"
+}
+{ "Distancia": "5,28 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Au Ap-68, 6",
+ "Localidad": "Arrigorriaga",
+ "Gasolina95": "1,259",
+ "Gasolina98": "1,359",
+ "Gasoleo": "",
+ "GLP": "0,588",
+ "Coordenadas": "[42.3368824, -2.0212154]"
+}
+{ "Distancia": "5,95 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Carretera N634 Km. 106,4",
+ "Localidad": "Etxebarri",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.24582789999999, -2.8843859]"
+}
+{ "Distancia": "5,97 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Avenida Alto De Enekuri, 5",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.2915511, -2.9601966]"
+}
+{ "Distancia": "6,10 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cr N-634, 115",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,349",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.2720264, -2.9667402]"
+}
+{ "Distancia": "6,66 Km",
+ "Compania": "GABAI OIL S.A.",
+ "Direccion": "Carretera Bi-631 Bilbao-bermeo Km. 11",
+ "Localidad": "Bilbao",
+ "Gasolina95": "1,199",
+ "Gasolina98": "",
+ "Gasoleo": "1,089",
+ "GLP": "",
+ "Coordenadas": "[43.2730016, -2.903041]"
+}
+{ "Distancia": "6,92 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cl Aperribay, 15",
+ "Localidad": "Usansolo",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.2187353, -2.8190749]"
+}
+{ "Distancia": "7,16 Km",
+ "Compania": "CAMPSA",
+ "Direccion": "Poligono Iru-bide (estacion De Servicio), 1",
+ "Localidad": "Arkotxa",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.2352729, -2.8693677]"
+}
+{ "Distancia": "7,46 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cr Bi-625, 373",
+ "Localidad": "Areta",
+ "Gasolina95": "1,219",
+ "Gasolina98": "",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.1517476, -2.9408417]"
+}
+{ "Distancia": "8,15 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cl Areta, 2",
+ "Localidad": "Llodio",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,359",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.148544, -2.9513965]"
+}
+{ "Distancia": "8,54 Km",
+ "Compania": "CAMPSA",
+ "Direccion": "Calle Zumalakarregi, S/n",
+ "Localidad": "Barakaldo",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,349",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.2833682, -2.9769955]"
+}
+{ "Distancia": "8,57 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Calle Munoa,, Sn",
+ "Localidad": "Barakaldo",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,349",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.28014, -2.97895]"
+}
+{ "Distancia": "8,57 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Carretera Bi-3704 Km. 5,5",
+ "Localidad": "Saturraran",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,339",
+ "Gasoleo": "",
+ "GLP": "0,588",
+ "Coordenadas": "[43.32708, -3.06815]"
+}
+{ "Distancia": "9,10 Km",
+ "Compania": "GALP",
+ "Direccion": "Carretera N 637 Km. 4,4",
+ "Localidad": "Zamudio",
+ "Gasolina95": "1,199",
+ "Gasolina98": "1,314",
+ "Gasoleo": "1,089",
+ "GLP": "",
+ "Coordenadas": "[43.29338389999999, -2.8961206]"
+}
+{ "Distancia": "9,64 Km",
+ "Compania": "MAKRO",
+ "Direccion": "vacio",
+ "Localidad": "Erandio",
+ "Gasolina95": "1,149",
+ "Gasolina98": "",
+ "Gasoleo": "1,049",
+ "GLP": "",
+ "Coordenadas": "[43.3031044, -2.9541508]"
+}
+{ "Distancia": "9,90 Km",
+ "Compania": "EROSKI",
+ "Direccion": "Avenida Zumalacarregui (c.c. Eroski), S/n",
+ "Localidad": "Llodio",
+ "Gasolina95": "1,139",
+ "Gasolina98": "1,213",
+ "Gasoleo": "1,039",
+ "GLP": "",
+ "Coordenadas": "[43.1424258, -2.9635895]"
+}
+{ "Distancia": "9,92 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Carretera Bi-3704 Asua-loiu Km. 57",
+ "Localidad": "Erandio",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3195406, -2.9756808]"
+}
+{ "Distancia": "9,94 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Carretera Bi-3704 Km. 57",
+ "Localidad": "Erandio",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3195406, -2.9756808]"
+}
+{ "Distancia": "10,26 Km",
+ "Compania": "AVIA  USOA",
+ "Direccion": "Poligono Zona Comercial Aeropuerto Loiu, 9",
+ "Localidad": "Derio",
+ "Gasolina95": "1,279",
+ "Gasolina98": "1,399",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.30505, -2.8972699]"
+}
+{ "Distancia": "10,44 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Carretera N-634 Km. 101,8",
+ "Localidad": "Usansolo",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.2319404, -2.8281045]"
+}
+{ "Distancia": "11,13 Km",
+ "Compania": "BENGOETXEA",
+ "Direccion": "Cr Bi-2522, 3,8",
+ "Localidad": "Zubieta",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,372",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.1075643, -2.9112964]"
+}
+{ "Distancia": "11,54 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cl De La Ribera , 11",
+ "Localidad": "Barakaldo",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,369",
+ "Gasoleo": "",
+ "GLP": "0,588",
+ "Coordenadas": "[43.2930089, -3.0066125]"
+}
+{ "Distancia": "11,66 Km",
+ "Compania": "GALP",
+ "Direccion": "Carretera Bilbao-santander Km. 120",
+ "Localidad": "Barakaldo",
+ "Gasolina95": "1,199",
+ "Gasolina98": "",
+ "Gasoleo": "1,089",
+ "GLP": "",
+ "Coordenadas": "[43.2864562, -3.0065201]"
+}
+{ "Distancia": "11,72 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cr N-634   (barrio Olabarri), 99,9",
+ "Localidad": "Usansolo",
+ "Gasolina95": "1,219",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,119",
+ "GLP": "",
+ "Coordenadas": "[43.23198, -2.82692]"
+}
+{ "Distancia": "11,82 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Carretera Bi-3745 Km. 9,2",
+ "Localidad": "Sestao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,369",
+ "Gasoleo": "",
+ "GLP": "0,588",
+ "Coordenadas": "[43.3010895, -3.0176357]"
+}
+{ "Distancia": "11,98 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cl Ribera De Axpe, 19",
+ "Localidad": "Leioa",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,359",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3132935, -2.9853296]"
+}
+{ "Distancia": "12,17 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Avenida Iparraguirre, 108",
+ "Localidad": "Leioa",
+ "Gasolina95": "1,234",
+ "Gasolina98": "1,364",
+ "Gasoleo": "1,134",
+ "GLP": "",
+ "Coordenadas": "[43.3195406, -2.9756808]"
+}
+{ "Distancia": "12,29 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Avenida Iparraguirre, 21",
+ "Localidad": "Leioa",
+ "Gasolina95": "1,234",
+ "Gasolina98": "1,364",
+ "Gasoleo": "1,134",
+ "GLP": "",
+ "Coordenadas": "[43.3204558, -2.9762535]"
+}
+{ "Distancia": "12,58 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "vacio",
+ "Localidad": "Sestao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,369",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.3010895, -3.0176357]"
+}
+{ "Distancia": "12,60 Km",
+ "Compania": "CEPSA",
+ "Direccion": "Carretera N-634 Km. S/n",
+ "Localidad": "Sestao",
+ "Gasolina95": "1,229",
+ "Gasolina98": "",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.308368, -2.9989255]"
+}
+{ "Distancia": "12,98 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Carretera Bi-636 Km. 15,5",
+ "Localidad": "Sodupe",
+ "Gasolina95": "1,239",
+ "Gasolina98": "",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.205558, -3.0471455]"
+}
+{ "Distancia": "13,64 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cl Grupo La Paz, 1 (bi-3739 Km 4,7)",
+ "Localidad": "Sestao",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,369",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.3126828, -3.0101256]"
+}
+{ "Distancia": "14,56 Km",
+ "Compania": "EROSKI",
+ "Direccion": "Avenida Vega De Ibarra, S/n",
+ "Localidad": "Portugalete",
+ "Gasolina95": "1,159",
+ "Gasolina98": "1,354",
+ "Gasoleo": "1,049",
+ "GLP": "",
+ "Coordenadas": "[43.31093, -3.0233632]"
+}
+{ "Distancia": "14,62 Km",
+ "Compania": "CEPSA",
+ "Direccion": "Ramon Y Cajal, S/n",
+ "Localidad": "Portugalete",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,354",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3139922, -3.0164723]"
+}
+{ "Distancia": "15,71 Km",
+ "Compania": "GAMIZ-2",
+ "Direccion": "Carretera N-634 Km. 96,700",
+ "Localidad": "Galdakao",
+ "Gasolina95": "1,119",
+ "Gasolina98": "",
+ "Gasoleo": "0,999",
+ "GLP": "",
+ "Coordenadas": "[43.2352729, -2.8693677]"
+}
+{ "Distancia": "15,87 Km",
+ "Compania": "GASOLINERA ORTUELLA",
+ "Direccion": "Poligono Granada, S/n",
+ "Localidad": "Ortuella",
+ "Gasolina95": "1,249",
+ "Gasolina98": "1,379",
+ "Gasoleo": "1,149",
+ "GLP": "",
+ "Coordenadas": "[43.30584, -3.04495]"
+}
+{ "Distancia": "16,34 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cl Munguia Bi-3121, 24,2",
+ "Localidad": "Urduliz",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,379",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3660158, -2.9298628]"
+}
+{ "Distancia": "16,80 Km",
+ "Compania": "CAMPSA",
+ "Direccion": "Cr N-240, 16",
+ "Localidad": "Lemoa",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,369",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.20161909999999, -2.7729037]"
+}
+{ "Distancia": "16,89 Km",
+ "Compania": "GAMIZ",
+ "Direccion": "Carretera Bi-3102 Km. 18,000",
+ "Localidad": "Mungia",
+ "Gasolina95": "1,229",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3705544, -2.8052521]"
+}
+{ "Distancia": "16,93 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cl Polig.ind. Balparda El Arbol , 2",
+ "Localidad": "Santurtzi",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,379",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3200411, -3.0459607]"
+}
+{ "Distancia": "17,01 Km",
+ "Compania": "CEPSA",
+ "Direccion": "Poligono El Arbol, 1",
+ "Localidad": "Santurtzi",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,354",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3200411, -3.0459607]"
+}
+{ "Distancia": "17,75 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Carretera Bi-3737 Km. S/n",
+ "Localidad": "Santa maria de getxo",
+ "Gasolina95": "1,244",
+ "Gasolina98": "1,374",
+ "Gasoleo": "1,144",
+ "GLP": "",
+ "Coordenadas": "[43.36043410000001, -3.0053025]"
+}
+{ "Distancia": "18,23 Km",
+ "Compania": "E.S. IGORRE S.L.",
+ "Direccion": "Avenida Lehendakari Aguirre, 22",
+ "Localidad": "Igorre",
+ "Gasolina95": "1,249",
+ "Gasolina98": "",
+ "Gasoleo": "1,159",
+ "GLP": "",
+ "Coordenadas": "[43.1654954, -2.7767887]"
+}
+{ "Distancia": "18,99 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cr N-634, 127,2",
+ "Localidad": "Gallarta",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,379",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.3111001, -3.0569769]"
+}
+{ "Distancia": "19,05 Km",
+ "Compania": "E.S.EL CAMPILLO",
+ "Direccion": "Pol.ind. El Campillo, Parc. 1-2 Fase Ii",
+ "Localidad": "Triano",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,379",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.28969, -3.07649]"
+}
+{ "Distancia": "19,07 Km",
+ "Compania": "CAMPSA",
+ "Direccion": "Carretera Asua-plentzia Km. 23",
+ "Localidad": "Plentzia",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,379",
+ "Gasoleo": "1,139",
+ "GLP": "",
+ "Coordenadas": "[43.38252929999999, -2.940037]"
+}
+{ "Distancia": "19,07 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Carretera Mungia-plentzia Km. 18",
+ "Localidad": "Billela",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,339",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.37714, -2.86499]"
+}
+{ "Distancia": "19,19 Km",
+ "Compania": "G.MOREAGA",
+ "Direccion": "Carretera Bi-pl Km. 20",
+ "Localidad": "Sopelana",
+ "Gasolina95": "1,177",
+ "Gasolina98": "1,269",
+ "Gasoleo": "1,065",
+ "GLP": "",
+ "Coordenadas": "[43.3816256, -2.9884198]"
+}
+{ "Distancia": "19,25 Km",
+ "Compania": "ARTEA OIL , S.A.",
+ "Direccion": "Crta. N-240 Bilbao - Vitoria (n-240 Km 26)",
+ "Localidad": "Areatza",
+ "Gasolina95": "1,239",
+ "Gasolina98": "1,369",
+ "Gasoleo": "1,129",
+ "GLP": "",
+ "Coordenadas": "[43.1324851, -2.7824349]"
+}
+{ "Distancia": "19,51 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "At A-8, 131",
+ "Localidad": "Gallarta",
+ "Gasolina95": "1,259",
+ "Gasolina98": "1,389",
+ "Gasoleo": "",
+ "GLP": "0,588",
+ "Coordenadas": "[43.1324851, -2.7824349]"
+}
+{ "Distancia": "19,56 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cr A-8  Bilbao Behobia P.k. 99,7",
+ "Localidad": "Amorebieta-Etxano",
+ "Gasolina95": "1,269",
+ "Gasolina98": "1,369",
+ "Gasoleo": "",
+ "GLP": "0,668",
+ "Coordenadas": "[43.2288799, -2.75333]"
+}
+{ "Distancia": "19,81 Km",
+ "Compania": "PETRONOR",
+ "Direccion": "Cr A-8 Bilbao-behobia ,p.k. 100",
+ "Localidad": "Amorebieta-Etxano",
+ "Gasolina95": "1,269",
+ "Gasolina98": "1,369",
+ "Gasoleo": "",
+ "GLP": "0,668",
+ "Coordenadas": "[43.2288799, -2.75333]"
+}
+{ "Distancia": "19,92 Km",
+ "Compania": "REPSOL",
+ "Direccion": "Cr N-634, 93",
+ "Localidad": "Amorebieta-Etxano",
+ "Gasolina95": "1,229",
+ "Gasolina98": "1,349",
+ "Gasoleo": "1,109",
+ "GLP": "",
+ "Coordenadas": "[43.2288799, -2.75333]"
+}
+{ "Distancia": "20,99 Km",
+ "Compania": "EROSKI",
+ "Direccion": "Poligono Sagastikoetxe, S/n",
+ "Localidad": "Gorliz",
+ "Gasolina95": "1,187",
+ "Gasolina98": "",
+ "Gasoleo": "1,065",
+ "GLP": "",
+ "Coordenadas": "[43.4059987, -2.9308216]"
+}
