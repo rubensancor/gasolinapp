@@ -55,7 +55,7 @@ var j = schedule.scheduleJob('* * 9:00 * * *', function() {
 
 
 app.get('/a', function(req, res, next) {
-    MongoClient.connect("mongodb://localhost:27017/gasolinapp", function(err, db) {
+    MongoClient.connect("mongodb://gusy:das@ds155747.mlab.com:55747/heroku_50hc8zr3", function(err, db) {
         if (err) {
             return console.dir(err);
         }
