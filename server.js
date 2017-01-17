@@ -86,7 +86,7 @@ $http.get("https://gasolinapp.herokuapp.com").then(function(response) {
           res.json(docs);
       });
   });
-})
+});
 
 app.get('/', function(req, res) {
   console.log("Renderizando index");
