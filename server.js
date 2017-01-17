@@ -94,7 +94,7 @@ app.listen((process.env.PORT || serverPort), function() {
             //Seleccion de la coleccion dentro de la base de datos
             var collection = db.collection('gasolineras');
 
-            collection.removeMany();
+          //  collection.removeMany();
 
             var a = read();
 
