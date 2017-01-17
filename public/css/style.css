@@ -1,0 +1,38 @@
+
+#map-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#button-wrapper {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    z-index: 1000;
+}
+
+#statistics{
+   position: absolute;
+   top: 200px; left: 40%;
+   height: 100%;
+   width: 100%;
+   margin: auto;
+   display: none;
+
+}
+
+.panel-heading span
+{
+    margin-top: -26px;
+    font-size: 15px;
+    margin-right: -12px;
+}
+
+.clickable {
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}

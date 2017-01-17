@@ -1,0 +1,188 @@
+<div id="map-wrapper">
+    <div id="map"></div>
+
+    <div id="button-wrapper">
+        <button type="button" class="btn btn-default btn-circle btn-lg" onClick="javascript:getLocationLeaflet();"><i class="glyphicon glyphicon-map-marker"></i></button>
+        <button type="button" class="btn btn-default btn-circle btn-lg stat"><i class="glyphicon glyphicon-stats"></i></button>
+
+    </div>
+
+    <div class="row" id="statistics">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Estadisticas</h3>
+                    <!-- Watch Out: Here We must use the effect name in the data tag-->
+                    <span class="pull-right clickable" data-effect="fadeOut"><i class="glyphicon glyphicon-remove"></i></span>
+                </div>
+                <div class="panel-body">
+                    La media de precio de los diferentes carburantes: <br>
+                    Gasolina95: <strong><p id="Gas95"></p></strong>
+                    Gasolina98: <strong><p id="Gas98"></p></strong>Diesel: <strong><p id="D"></p></strong>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        var map;
+        var markerPosition;
+        var circlePosition;
+        var usado = 0;
+
+        $(function(argument) {
+            map = L.map('map').setView([43.26311, -2.93511], 13);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicnViZW5zYW5jb3IiLCJhIjoiY2l3eHF6M28yMDAyOTJvcWhsNTZlazBlayJ9.i-NZrdpt63N7j_9wBmNf6A', {
+                attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                maxZoom: 19,
+                id: 'GasolinApp',
+                accessToken: 'pk.eyJ1IjoicnViZW5zYW5jb3IiLCJhIjoiY2l3eHI4ZDNwMDAzeDMwanRtbHA5YzBrbCJ9.h0KIMQ_1A0wdK7bzBZDBeQ'
+            }).addTo(map);
+
+            L.control.tagFilterButton({
+                data: ['Gasolina95', 'Gasolina98', 'Diesel'],
+                icon: '<img src="icon/filter.png">'
+            }).addTo(map);
+        });
+
+
+        function remove() {
+            map.removeLayer(markerPosition);
+            map.removeLayer(circlePosition);
+        }
+
+        function onLocationFound(e) {
+            if (usado == 1) {
+                remove();
+            } else {
+                usado++;
+            }
+            var radius = e.accuracy / 2;
+            var location = e.latlng;
+            var locationIcon = L.icon({
+                iconUrl: '/icon/gps.png',
+                iconAnchor: [15, 15]
+            });
+            markerPosition = L.marker(location, {
+                icon: locationIcon
+            }).addTo(map)
+            circlePosition = L.circle(location, radius).addTo(map);
+        }
+
+        function onLocationError(e) {
+            alert(e.message);
+        }
+
+        function getLocationLeaflet() {
+            map.on('locationfound', onLocationFound);
+            map.on('locationerror', onLocationError);
+            map.locate({
+                setView: true,
+                maxZoom: 16
+            });
+        }
+    </script>
+
+    <script>
+        var sumaTot95 = 0.00;
+        var tot95 = 0;
+        var sumaTot98 = 0.00;
+        var tot98 = 0;
+        var sumaTotD = 0.00;
+        var totD = 0;
+        $.ajax({
+            type: 'GET',
+            url: 'http://localhost:3000/a',
+            success: function(data) {
+                console.log(data);
+                for (var i = 0; i < data.length; i++) {
+                    var cords = data[i].Coordenadas;
+                    var LatLng = cords.replace("[", "").replace("]", "").split(", ");
+
+                    if (data[i].Gasolina95 != "") {
+                        var str = data[i].Gasolina95;
+                        var res = str.replace(",", ".");
+                        sumaTot95 = sumaTot95 + parseFloat(res);
+                        tot95++;
+                    }
+                    if (data[i].Gasolina98 != "") {
+                        var str = data[i].Gasolina98;
+                        var res = str.replace(",", ".");
+                        sumaTot98 = sumaTot98 + parseFloat(res);
+                        tot98++;
+                    }
+                    if (data[i].Gasoleo != "") {
+                        var str = data[i].Gasoleo;
+                        var res = str.replace(",", ".");
+                        sumaTotD = sumaTotD + parseFloat(res);
+                        totD++;
+                    }
+
+                    var Lat = parseFloat(LatLng[0]);
+                    var Lng = parseFloat(LatLng[1]);
+                    var tag95 = 'Gasolina95';
+                    var tag98 = 'Gasolina98';
+                    var tagD = 'Diesel';
+
+                    if (data[i].Gasolina95 != 0) {
+                        if (data[i].Gasolina98 != 0) {
+                            if (data[i].Gasoleo != 0) {
+                                var marker = L.marker([Lat, Lng], {
+                                    tags: [tag95, tag98, tagD]
+                                }).addTo(map);
+                                var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                                marker.bindPopup(string);
+                            } else {
+                                var marker = L.marker([Lat, Lng], {
+                                    tags: [tag95, tag98]
+                                }).addTo(map);
+                                var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                                marker.bindPopup(string);
+                            }
+                        } else if (data[i].Gasoleo != 0) {
+                            var marker = L.marker([Lat, Lng], {
+                                tags: [tag95, tagD]
+                            }).addTo(map);
+                            var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                            marker.bindPopup(string);
+                        } else {
+                            var marker = L.marker([Lat, Lng], {
+                                tags: [tag95]
+                            }).addTo(map);
+                            var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                            marker.bindPopup(string);
+                        }
+                    } else if (data[i].Gasolina98 != 0) {
+                        if (data[i].Diesel != 0) {
+                            var marker = L.marker([Lat, Lng], {
+                                tags: [tag98, tagD]
+                            }).addTo(map);
+                            var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                            marker.bindPopup(string);
+                        } else {
+                            var marker = L.marker([Lat, Lng], {
+                                tags: [tag98]
+                            }).addTo(map);
+                            var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                            marker.bindPopup(string);
+                        }
+                    } else {
+                        var marker = L.marker([Lat, Lng], {
+                            tags: [tagD]
+                        }).addTo(map);
+                        var string = data[i].Compania + "<br> <b>Gasolina95:</b> " + data[i].Gasolina95 + "<br> <b>Gasolina98:</b> " + data[i].Gasolina98 + "<br> <b>Diesel:</b> " + data[i].Gasoleo;
+                        marker.bindPopup(string);
+                    }
+
+                }
+
+                document.getElementById("Gas95").innerHTML = (sumaTot95/tot95).toFixed(3);
+                document.getElementById("Gas98").innerHTML = (sumaTot98/tot98).toFixed(3);
+                document.getElementById("D").innerHTML = (sumaTotD/totD).toFixed(3);
+            }
+        });
+
+    </script>
