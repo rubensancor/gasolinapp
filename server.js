@@ -1,6 +1,5 @@
 var express = require('express');
 var expressLayouts = require("express-ejs-layouts");
-var bodyParser = require("body-parser");
 var MongoClient = require('mongodb').MongoClient;
 var fs = require('fs');
 var bodyParser = require('body-parser');
@@ -77,7 +76,6 @@ app.get('/', function(req, res) {
 });
 
 function read() {
-    var fs = require('fs');
     data2 = fs.readFileSync('a.json', 'utf8');
     return data2;
 }
