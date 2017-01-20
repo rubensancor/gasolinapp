@@ -45,3 +45,17 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+
+  #statistics{
+     position: absolute;
+     top: 100px; left: 20%;
+     height: 100%;
+     width: 100%;
+     margin: auto;
+     display: none;
+
+  }
+
+}
