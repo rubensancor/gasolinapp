@@ -83,26 +83,5 @@ function read() {
 
 //El servidor se pone a escuchar en el puerto asignado y escribe por consola
 app.listen((process.env.PORT || serverPort), function() {
-    PythonShell.run('parser_gasolineras.py', function() {
-
-        MongoClient.connect("mongodb://gusy:das@ds155747.mlab.com:55747/heroku_50hc8zr3", function(err, db) {
-            if (err) {
-                return console.dir(err);
-            }
-            //Seleccion de la coleccion dentro de la base de datos
-            var collection = db.collection('gasolineras');
-
-          //  collection.removeMany();
-
-            var a = read();
-
-            exec(command, function(error, stdout, stderr) {
-                console.log('Success')
-            });
-
-            db.close();
-        });
-    });
-
     console.log('GasolinApp Server listening on port ' + serverPort);
 });
